@@ -12,8 +12,9 @@ It consists of traveler data divided into two types: train and test. This is usu
 - [Dataset](#4-dataset)
 - [Installation and Setup](#5-installation-and-setup)
 - [How to Run](#6-how-to-run)
-- [Key Findings](#7-key-findings)
+- [Key Findings and Insights](#7-Key-Findings-and-Insights)
 - [Technologies Used](#8-technologies-used)
+- [Run Notebooks in Google Colab](#9-run-notebooks-in-google-colab)
 
 ----------
 
@@ -187,3 +188,13 @@ The relationship between delay and satisfaction is more complex than expected.
 - **NumPy:** For numerical operations.
 - **Matplotlib & Seaborn:** For data visualization.
 - **Jupyter Notebook:** For interactive development and exploration.
+
+----------
+
+## 9. Run Notebooks in Google Colab
+
+### 1️⃣ Data Cleaning Notebook
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BaselAhmed22/APS_analysis_project/blob/main/notebooks/data_cleaning.ipynb)
+
+### 2️⃣ Visualization Notebook
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BaselAhmed22/APS_analysis_project/blob/main/notebooks/visualization.ipynb)
