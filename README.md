@@ -125,23 +125,23 @@ For a more interactive, step-by-step exploration of the data cleaning and visual
 
 ----------
 
-## 7. Key Findings
-*(This is a section to summarize your results. Fill it with your insights.)*
+## 7. Key Findings and Insights
+*(This is a section to summarize your results. Fill it with your notes.)*
 
 * **Passengers are neutral or dissatisfied if the delay in arrival exceeds the departure time Conversely, they are satisfied when the delay is equal to the departure time.**
 
 * **The level of satisfaction with the trip decreases as the trip category decreases. We find that**
-Business class: 69.4% of customers are satisfied, while 30.6% are dissatisfied.
-Eco Plus class: 24.6% of customers are satisfied, while 75.4% are dissatisfied.
-Eco class: 18.8% of customers are satisfied, while 81.2% are dissatisfied.
+** 1- Business class: 69.4% of customers are satisfied, while 30.6% are dissatisfied.** 
+** 2-Eco Plus class: 24.6% of customers are satisfied, while 75.4% are dissatisfied.** 
+** 3-Eco class: 18.8% of customers are satisfied, while 81.2% are dissatisfied.** 
 
 * **The percentage of female customers is higher than that of male customers.**
 * **The percentage of loyal customers is higher than that of disloyal customers.**
 * **The percentage of business trips is higher than that of personal trips.**
-* **The percentage of neutral and dissatisfied customers is higher than that of satisfied customers.* **
+* **The percentage of neutral and dissatisfied customers is higher than that of satisfied customers.**
 
 
-## Key Findings and Insights
+*(This is a section to summarize your results. Fill it with your insights.)*
 
 Our analysis of passenger data reveals the customer experience. Satisfaction doesn't depend on a single factor, but on several, and most importantly, the quality of the experience during the journey.
 
