@@ -65,7 +65,7 @@ def visualize_clean_data(df: pd.DataFrame):
    # Create a single large figure for all service ratings
     # We have 14 review columns, so a 3x5 grid is suitable (3*5=15 plots)
     fig, axes = plt.subplots(3, 5, figsize=(20, 12))
-    fig.suptitle('Mean Service Ratings by Class', fontsize=20, y=1.02)
+    fig.suptitle('Mean Service Ratings by Class', fontsize=22, y=1.0)
     axes = axes.flatten() # Flatten the 3x5 grid into a 1D array
 
     # Loop through all review columns and plot them
@@ -76,18 +76,24 @@ def visualize_clean_data(df: pd.DataFrame):
         ax.set_xlabel('')
         ax.set_ylabel('Mean Rating')
 
+        ax.tick_params(axis='x', rotation=45)
+
         # Add mean values on top of bars
         for container in ax.containers:
-            ax.bar_label(container, fmt='%.2f', fontsize=10)
+            ax.bar_label(container, label_type='center', fmt='%.2f%%', color='black', fontsize= 10)
 
     # Hide any unused subplots if the number of plots is not a perfect multiple
     for j in range(len(review_cols), len(axes)):
             fig.delaxes(axes[j])
     
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
+    fig.subplots_adjust(top=0.93, hspace=0.7, wspace=0.6)
     plt.show()
-    
-    
+
+    print(f"\n--- Mean Scores for All Services ---")
+    all_mean_scores = df.groupby('class')[review_cols].mean().round(2)
+    print(all_mean_scores.T)
+    print("-" * 50)
+
 
     # Plot scatter plot for departure and arrival delays
     """Plot a scatter plot to visualize the relationship between departure delay and arrival delay."""
