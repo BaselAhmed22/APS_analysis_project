@@ -143,11 +143,10 @@ Eco class: 18.8% of customers are satisfied, while 81.2% are dissatisfied.
 
 ## Key Findings and Insights
 
-Our analysis of passenger data reveals a multi-dimensional story about the customer experience. Satisfaction doesn't depend on a single factor, but rather on a combination of the customer profile, the purpose of travel, and most importantly, the quality of the experience during the journey.
+Our analysis of passenger data reveals the customer experience. Satisfaction doesn't depend on a single factor, but on several, and most importantly, the quality of the experience during the journey.
 
 ### 1. The gap between travel classes
-
-The main findings are the significant satisfaction gap between travel classes. This indicates that the airline is actually applying different service standards.
+The results indicate a significant satisfaction gap between travel classes. This indicates that the airline is actually applying different service standards.
 
 * **Business Class:** The vast majority of passengers (69.4%) are satisfied.
 * **Economy Class and Eco Plus:** The situation is completely reversed for you, as the vast majority are neutral or dissatisfied (75.4% for Eco Plus and 81.2% for Eco).
@@ -155,17 +154,15 @@ The main findings are the significant satisfaction gap between travel classes. T
 **Vision:** The "economy class" experience fundamentally fails to meet passenger expectations. The extra amount paid for business class is not just for comfort, but for a satisfying journey, which is not the standard across the airline.
 
 ### 2. Primary Client:
-
-The data clearly defines the airline's core customer base, which is crucial for strategic focus.
+The data clearly identifies the airline's core customer base.
 
 * **Loyalty:** The majority of passengers are **loyal customers**, indicating a strong base of repeat business.
 * **Purpose:** Most trips are for **business purposes**, not leisure.
 * **Gender:** The passenger base leans slightly toward **females**.
 
-**Vision:** The company's strategic efforts should focus heavily on retaining **loyal female travelers and business travelers**. Their needs – efficiency, comfort, and a productive environment – must be top priorities.
+**Vision:** The company's strategic efforts should focus heavily on retaining **loyal female travelers and business travelers**. Their needs must be the top priority.
 
 ### 3. The Paradox of Public Satisfaction
-
 Despite having a loyal customer base who travel for work, the general feeling is negative.
 
 * **Overall Judgment:** The majority of passengers across all classes combined are **neutral or dissatisfied**.
@@ -173,16 +170,11 @@ Despite having a loyal customer base who travel for work, the general feeling is
 **Vision:** This is a serious warning sign. The airline is failing to meet the basic needs of its loyal customers. The dissatisfaction of a large number of economy class passengers reduces the overall perception of the brand, which could jeopardize long-term loyalty.
 
 ### 4. Punctuality:
-
 The relationship between delay and satisfaction is more complex than expected.
 
 * **Note:** Passengers tend to feel satisfied if the arrival delay is proportional to or less than the departure delay. Satisfaction decreases significantly when arrival delays exceed departure delays.
 
 **Insight:** This suggests that passengers have a certain level of tolerance for delays, especially if they are "expected" (i.e., the arrival delay matches the initial departure delay). However, unexpected extensions of delays (such as long waits on the airport runway after landing) are a major source of frustration. Managing expectations and communication during the journey is essential.
-
-
-
-
 
 ----------
 
