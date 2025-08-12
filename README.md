@@ -125,6 +125,10 @@ For a more interactive, step-by-step exploration of the data cleaning and visual
 
 ----------
 
+## 7. Key Findings
+
+----------
+
 ## 8. Technologies Used
 
 - **Python 3.x**

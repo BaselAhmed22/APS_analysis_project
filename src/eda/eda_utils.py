@@ -64,7 +64,7 @@ def visualize_clean_data(df: pd.DataFrame):
     """Plot bar plots for review columns."""
    # Create a single large figure for all service ratings
     # We have 14 review columns, so a 3x5 grid is suitable (3*5=15 plots)
-    fig, axes = plt.subplots(3, 5, figsize=(20, 12), constrained_layout=True)
+    fig, axes = plt.subplots(3, 5, figsize=(20, 12))
     fig.suptitle('Mean Service Ratings by Class', fontsize=20, y=1.02)
     axes = axes.flatten() # Flatten the 3x5 grid into a 1D array
 
@@ -83,7 +83,8 @@ def visualize_clean_data(df: pd.DataFrame):
     # Hide any unused subplots if the number of plots is not a perfect multiple
     for j in range(len(review_cols), len(axes)):
             fig.delaxes(axes[j])
-
+    
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.show()
     
     
