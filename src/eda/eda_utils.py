@@ -89,7 +89,7 @@ def visualize_clean_data(df: pd.DataFrame):
     fig.subplots_adjust(top=0.93, hspace=0.7, wspace=0.6)
     plt.show()
 
-    print(f"\n--- Mean Scores for All Services ---")
+    print(f"\nMean Scores for All Services")
     all_mean_scores = df.groupby('class')[review_cols].mean().round(2)
     print(all_mean_scores.T)
     print("-" * 50)
@@ -107,7 +107,7 @@ def visualize_clean_data(df: pd.DataFrame):
     plt.show()
 
     # Print correlation and mean delays by satisfaction
-    print("\n--- Delay Statistics by Satisfaction ---")
+    print("\n--- Delay Statistics by Satisfaction")
     delay_corr = df[['departure delay in minutes', 'arrival delay in minutes']].corr().iloc[0, 1]
     print(f"Correlation between Departure and Arrival Delay: {delay_corr:.2f}")
     print("\nMean Delays (in minutes):")
