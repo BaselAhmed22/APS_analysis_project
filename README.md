@@ -54,7 +54,6 @@ APS_analysis/
 │       ├── __init__.py
 │       └── eda_utils.py
 │
-├── final_report.md     # Final analysis report and conclusions
 ├── README.md           # Project overview and instructions
 └── requirements.txt    # Project dependencies
 ```
