@@ -87,13 +87,9 @@ source .venv/bin/activate
 
 # Using VS Code Command Palette
 1. Press Ctrl + Shift + P (or Cmd + Shift + P on macOS) to open the Command Palette.
-
 2. Type "Python: Create Environment" and select it.
-
 3. Choose Venv as the environment type.
-
 4. Select the Python interpreter you want to use.
-
 5. VS Code will automatically create and activate the virtual environment for you.
 ```
 
