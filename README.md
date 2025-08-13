@@ -47,11 +47,9 @@ APS_analysis/
 │   │   ├── clean_data.py
 │   │   └── load_data.py
 │   │
-│   │  
 │   └── eda/            # Modules for exploratory data analysis
 │       ├── __init__.py
-│       └── eda_utils.py
-│        
+│       └── eda_utils.py        
 │
 ├── .gitignore          # Specifies intentionally untracked files to ignore
 ├── README.md           # Project overview and instructions
