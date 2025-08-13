@@ -23,7 +23,6 @@ It consists of traveler data divided into two types: train and test. This is usu
 ```
 APS_analysis/
 │
-├── .gitignore          # Specifies intentionally untracked files to ignore
 ├── data/               # Contains all data files for the project
 │   ├── processed/      # Cleaned and preprocessed data
 │   │   ├── cleaned_data.csv
@@ -43,18 +42,18 @@ APS_analysis/
 │   └── run_analysis.py
 │
 ├── src/                # Source code for the project
-│   ├── __pycache__/
 │   ├── data/           # Modules for data loading and cleaning
-│   │   ├── __pycache__/
 │   │   ├── __init__.py
 │   │   ├── clean_data.py
 │   │   └── load_data.py
 │   │
+│   │  
 │   └── eda/            # Modules for exploratory data analysis
-│       ├── __pycache__/
 │       ├── __init__.py
 │       └── eda_utils.py
+│        
 │
+├── .gitignore          # Specifies intentionally untracked files to ignore
 ├── README.md           # Project overview and instructions
 └── requirements.txt    # Project dependencies
 ```
